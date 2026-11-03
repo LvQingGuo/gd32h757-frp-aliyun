@@ -1,0 +1,16 @@
+# frps 0.71.1 / FRP v1 / GD32H757 profile
+bindAddr = "0.0.0.0"
+bindPort = 7000
+proxyBindAddr = "127.0.0.1"
+allowPorts = [{ single = 18080 }]
+maxPortsPerClient = 1
+auth.method = "token"
+auth.token = "REPLACE_WITH_64_LOWERCASE_HEX_CHARACTERS"
+auth.additionalScopes = ["HeartBeats", "NewWorkConns"]
+transport.tcpMux = false
+transport.maxPoolCount = 2
+transport.tls.force = true
+transport.tls.certFile = "/etc/frp/tls/server.crt"
+transport.tls.keyFile = "/etc/frp/tls/server.key"
+log.to = "console"
+log.level = "warn"

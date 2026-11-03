@@ -1,0 +1,17 @@
+[Unit]
+Description=GD32 single-device authenticated bootstrap demo
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=frps
+Group=frps
+ExecStart=/usr/bin/python3 /opt/gd32-frp/bootstrap_demo.py --config /etc/frp/bootstrap.json
+Restart=on-failure
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+
+[Install]
+WantedBy=multi-user.target

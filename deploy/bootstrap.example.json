@@ -1,0 +1,7 @@
+{
+  "listen": "0.0.0.0",
+  "port": 7000,
+  "device": "cmu-000000000000000000000001",
+  "secret": "REPLACE_WITH_DIFFERENT_64_LOWERCASE_HEX_CHARACTERS",
+  "proxy_port": 18080
+}
