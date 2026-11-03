@@ -1,0 +1,21 @@
+# Locally provisioned configuration and credentials
+firmware/cloud_demo_config.h
+deploy/frps.toml
+deploy/bootstrap.json
+private/
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.db
+*.sqlite*
+.env*
+__pycache__/
+build/
+*.o
+*.exe
+*.axf
+*.bin
+*.hex
+*.map
