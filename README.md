@@ -6,7 +6,7 @@
 
 本项目重点是嵌入式协议实现、云端部署和跨网络联调。原系统已经完成电脑浏览器 → 阿里云云平台 → GD32H757VMT6 的端到端连接；板卡主动建立出站隧道，无需给板卡所在局域网配置公网入口。
 
-开源的另一个目标是帮助开发者在 GD32 上实现类似 frpc 的客户端，并与阿里云 ECS 或其他服务器上的 frps 建立连接。你可以复用这里的协议代码、平台接口和配置模板，在已有的联网 GD32 工程中完成集成；独立示例使用人工配置的设备身份与最小配套服务即可运行。
+开发者可在 GD32 上实现类似 frpc 的客户端，并与阿里云 ECS 或其他服务器上的 frps 建立连接，开发者可以复用这里的协议代码、平台接口和配置模板，在已有的联网 GD32 工程中完成集成；独立示例使用人工配置的设备身份与最小配套服务即可运行。
 
 *A C FRP client adaptation for GD32H757, with server configuration and integration guides for Alibaba Cloud ECS or other Linux servers. Documentation is primarily in Chinese.*
 
