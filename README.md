@@ -10,8 +10,13 @@
 
 *A C FRP client adaptation for GD32H757, with server configuration and integration guides for Alibaba Cloud ECS or other Linux servers. Documentation is primarily in Chinese.*
 
-<img width="1672" height="941" alt="云端边缘网络架构图" src="https://github.com/user-attachments/assets/92ac51b3-35ca-4997-a0b9-95c69b8e1dca" />
-
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/92ac51b3-35ca-4997-a0b9-95c69b8e1dca"
+    alt="云端边缘网络架构图"
+    width="100%"
+  />
+</p>
 
 ## 主要贡献
 
